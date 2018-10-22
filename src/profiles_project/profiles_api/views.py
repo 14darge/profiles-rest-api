@@ -102,3 +102,4 @@ class HelloViewSet(viewsets.ViewSet):
         """Hanldes removing an object."""
 
         return Response({'http_method': 'DELETE'})
+    
